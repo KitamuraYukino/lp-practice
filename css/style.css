@@ -12,12 +12,15 @@ a{
 .inner{
   width: 1100px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .section-title{
+  width: 100%;
+  text-align: center;
   font-size: 40px;
   letter-spacing: 10px;
+  margin-bottom: 50px;
 }
 /* header */
 .nav-inner{
@@ -118,10 +121,13 @@ a{
 
 .skills-inner{
   width: 1100px;
-  display: flex;
-  flex-wrap: wrap;
   padding: 50px 0 70px;
   margin: 0 auto;
+}
+
+.skills-container{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .skills-li{
@@ -136,12 +142,105 @@ li.skills-li img{
   height: auto;
 }
 
-li.skills-li:nth-of-type(3n-2){
-  margin-left: none;
+li.skills-li:nth-child(3n-2) {
+  margin-left: 0;
 }
+
+li.skills-li:nth-child(n+4){
+  margin-bottom: 0;
+}
+
 /* section plan */
+.plan{
+  background: #d0dfea;
+  padding-bottom: 50px;
+}
+
+.plan-inner{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.plan-tb{
+  width: 100%;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+
+.plan-td{
+  line-height: 26px;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+.plan-th{
+  background: #6ba7eb;
+}
+
+.plan-th th{
+  line-height: 26px;
+  font-size: 16px;
+  padding: 10px;
+  border-left: 2px solid #fff;
+  border-collapse: collapse;
+}
+
+.plan-th th:first-child{
+  border-left: none;
+}
+
+.plan-td td{
+  line-height: 26px;
+  font-size: 16px;
+  padding: 10px;
+  border-left: 2px solid #fff;
+  border-collapse: collapse;
+}
+
+.plan-td td:first-child{
+  border-left: none;
+}
+
+.plan-td tr:nth-child(2n+1){
+  background: #f9f9f9;
+}
+
+.plan-td tr:nth-child(2n){
+  background: #e0efff;
+}
 
 /* section sns */
+.sns{
+  background: #e3f2fd;
+  padding: 200px 0;
+}
 
+.sns-li{
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.sns-i{
+  width: 185px;
+  text-align: center;
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+  padding: 25px 0;
+}
 /* footer */
+.footer{
+  background: #cfd8dc;
+}
 
+.footer-inner{
+  margin: 0 auto;
+  width: 1100px;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  padding: 20px 0 25px;
+  text-align: right;
+}
