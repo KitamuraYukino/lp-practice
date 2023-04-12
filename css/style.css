@@ -208,7 +208,7 @@ li.skills-li:nth-child(3n-2) {
 }
 
 .plan-tb{
-  width: 100%;
+  width: 95%;
   table-layout: fixed;
   margin: 0 auto;
 }
