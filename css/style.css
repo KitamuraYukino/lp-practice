@@ -350,8 +350,20 @@ li.skills-li:nth-child(3n-2) {
 }
 
 @media screen and (max-width:1199px) {
+  .inner, .nav-inner, .work-inner, .sns-li, .footer-inner{
+    width: 100%;
+}
+
+  .keyvisual{
+    padding: 328px 0 250px;
+  }
+
   .work-inner{
     grid-template-columns: 100%;
+  }
+
+  .work-text{
+    margin-bottom: 50px;
   }
 
   .pc{
@@ -367,8 +379,11 @@ li.skills-li:nth-child(3n-2) {
   }
 
   li.skills-li:nth-child(3n) {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
   
+  .sns-li{
+    width: 100%;
+  }
 
 }
