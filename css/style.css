@@ -29,7 +29,7 @@ a{
 .header{
   background: #fff;
   position: fixed;
-  padding-bottom: 15px;
+  padding: 15px 0;
 }
 
 .nav-inner{
@@ -38,7 +38,6 @@ a{
   margin: 0 auto;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 15px;
 }
 
 .nav-i{
@@ -64,7 +63,7 @@ a{
 
 /* section keyvisual */
 .keyvisual{
-  padding: 400px 0;
+  padding: 478px 0 400px;
   background: url(../img/keyvisual/keyvisual.jpg) center/cover no-repeat;
 }
 
