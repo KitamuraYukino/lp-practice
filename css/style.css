@@ -41,6 +41,7 @@ a{
   background-color: #6ba7eb;
   padding: 12px 14px;
   text-align: center;
+  display: block;
 }
 
 .nav-btn a{
@@ -83,29 +84,28 @@ a{
 .work-flex{
   display: flex;
   padding-top: 50px;
+  text-align: center;
 }
 
 .pc{
   width: 40%;
-  text-align: center;
 }
 
 .text-box{
   width: 60%;
+  padding-bottom: 0;
 }
 
 .work-title{
   padding: 20px 0 35px;
   font-size: 40px;
   letter-spacing: 10px;
-  text-align: center;
 }
 
 .work-text{
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-  text-align: center;
 }
 
 div.pc img{
@@ -127,9 +127,11 @@ div.pc img{
 
 .container{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 .list-card{
@@ -138,7 +140,7 @@ div.pc img{
 
 li.list-card img{
   width: 300px;
-  height: auto;
+  height: 300px;
   opacity: 0.7;
 }
 
@@ -191,6 +193,7 @@ li.list-card:nth-child(-n+3){
 
 .table td:first-child{
   border-left: none;
+  font-weight: bold;
 }
 
 .table tr:nth-child(2n+1){
@@ -208,6 +211,7 @@ li.list-card:nth-child(-n+3){
 
 .sns-container{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   padding: 200px 0;
 }
