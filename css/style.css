@@ -20,6 +20,10 @@ a{
   width: 100%;
 }
 
+.main{
+  padding-top: 78px;
+}
+
 /* header */
 .header{
   background: #fff;
@@ -56,7 +60,7 @@ a{
 
 /* keyvisual */
 .keyvisual{
-  padding: 478px 0 400px;
+  padding: 400px 0;
   background: url(../img/keyvisual/keyvisual.jpg) center/cover no-repeat;
 }
 
@@ -79,11 +83,11 @@ a{
 /* work */
 .work{
   background: #e3f2fd;
+  padding-top: 50px;
 }
 
 .work-flex{
   display: flex;
-  padding-top: 50px;
   text-align: center;
 }
 
@@ -93,7 +97,6 @@ a{
 
 .text-box{
   width: 60%;
-  padding-bottom: 0;
 }
 
 .work-title{
@@ -115,13 +118,12 @@ div.pc img{
 /* skills */
 .skills{
   background: #fff;
+  padding: 50px 0 70px;
 }
 
 .title{
   font-size: 40px;
   letter-spacing: 10px;
-  padding-top: 50px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -130,7 +132,6 @@ div.pc img{
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  margin-bottom: 70px;
   text-align: center;
 }
 
@@ -159,13 +160,13 @@ li.list-card:nth-child(-n+3){
 /* plan */
 .plan{
   background: #d0dfea;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 
 .table{
   width: 97%;
   table-layout: fixed;
-  margin: 50px auto 0;
+  margin-top: 50px;
 }
 
 .table th{
@@ -207,13 +208,13 @@ li.list-card:nth-child(-n+3){
 /* sns */
 .sns{
   background: #e3f2fd;
+  padding: 200px 0;
 }
 
 .sns-container{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 200px 0;
 }
 
 .sns-li{
@@ -236,6 +237,7 @@ li.list-card:nth-child(-n+3){
 /* footer */
 .footer{
   background: #cfd8dc;
+  padding: 20px 0 25px;
 }
 
 .footer-container{
@@ -244,7 +246,6 @@ li.list-card:nth-child(-n+3){
 }
 
 .footer-text{
-  padding: 20px 0 25px;
   font-size: 10px;
   letter-spacing: 0.5px;
   justify-content: right;
