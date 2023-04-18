@@ -131,6 +131,7 @@ div.pc img{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-top: 50px;
   width: 100%;
   text-align: center;
 }
@@ -154,9 +155,18 @@ li.list-card:nth-child(3n){
   margin-right: 0;
 }
 
-li.list-card:nth-child(-n+3){
-  margin-top: 50px;
+li.list-card:nth-child(1){
+  margin-top: 0;
 }
+
+li.list-card:nth-child(2){
+  margin-top: 0;
+}
+
+li.list-card:nth-child(3){
+  margin-top: 0;
+}
+
 /* plan */
 .plan{
   background: #d0dfea;
