@@ -11,6 +11,14 @@ a{
   text-decoration: none;
 }
 
+button{
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
 .inner{
   width: 1100px;
   margin: 0 auto;
@@ -29,6 +37,7 @@ a{
   background: #fff;
   position: fixed;
   padding: 15px 0;
+  z-index: 10;
 }
 
 .header-flex{
@@ -41,20 +50,17 @@ a{
 }
 
 .nav-btn{
-  border: none;
   background-color: #6ba7eb;
-  padding: 12px 14px;
   text-align: center;
   display: block;
-}
-
-.nav-btn a{
+  padding: 12px 14px;
   font-size: 12px;
   color: #fff;
   transition: .3s;
+  font-weight: bold;
 }
 
-.nav-btn a:hover{
+.nav-btn:hover{
   color: #333;
 }
 
