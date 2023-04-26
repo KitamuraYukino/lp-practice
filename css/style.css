@@ -146,6 +146,12 @@ div.pc img{
   margin: 100px 100px 0 0;
 }
 
+li.list-card a{
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+}
+
 li.list-card img{
   width: 300px;
   height: 300px;
@@ -182,7 +188,7 @@ li.list-card:nth-child(3){
 .table{
   width: 97%;
   table-layout: fixed;
-  margin-top: 50px;
+  margin: 50px auto 0;
 }
 
 .table th{
@@ -269,12 +275,15 @@ li.list-card:nth-child(3){
 
 /* TABレスポンシブ */
 @media screen and (max-width:1199px) {
+  body{min-width: 100%;}
+
   .inner{
     width: 97%
   }
+
   /* keyvisual */
   .keyvisual{
-    padding: 328px 0 250px;
+    padding: 250px 0;
   }
 
   /* work section */
@@ -313,8 +322,9 @@ li.list-card:nth-child(3){
   }
 
   li.list-card:first-child{
-    margin-top: 50px;
+    margin-top: 0;
   }
+
 }
 
 /* SPレスポンシブ */
@@ -362,7 +372,7 @@ li.list-card:nth-child(3){
 
   /* keyvisual */
   .keyvisual{
-    padding: 278px 0 200px;
+    padding: 200px 0;
   }
   .main-title{
     font-size: 40px;
